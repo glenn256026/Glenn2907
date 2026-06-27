@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work - My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html"><span class="brand">Glenn Boeja</span></a>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="work.html" class="nav-link active">Work</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>My Projects</h1>
+            <p>Showcasing my work and creative solutions</p>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="work-section">
+        <div class="container">
+            <div class="work-grid">
+                <div class="work-card" data-category="web">
+                    <div class="work-image makandra-gallery">
+                        <div class="gallery-slides">
+                            <img src="img/makandra1.jpeg" alt="MaKandra screenshot 1" class="gallery-slide active">
+                            <img src="img/makandra2.jpeg" alt="MaKandra screenshot 2" class="gallery-slide">
+                        </div>
+                        <button class="gallery-prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="gallery-next"><i class="fas fa-chevron-right"></i></button>
+                        <div class="gallery-dots">
+                            <span class="gallery-dot active"></span>
+                            <span class="gallery-dot"></span>
+                        </div>
+                        <div class="work-overlay">
+                            <a href="https://github.com/Ja1r117/MaKandra-" target="_blank" class="view-btn">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3 class="work-title">MaKandra</h3>
+                        <p class="work-description">A platform to find and connect with service providers in Suriname. Browse categories, view top-rated professionals, and get the help you need.</p>
+                        <div class="work-tech">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">GitHub</span>
+                        </div>
+                        <div class="work-links">
+                            <a href="https://github.com/Ja1r117/MaKandra-" target="_blank" class="work-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Interested in collaborating?</h2>
+            <p>I'm always open to new opportunities and interesting projects. Let's connect!</p>
+            <a href="contact.html" class="btn btn-light">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Glenn Boeja</h3>
+                    <p>Showcasing my work and passion for web development.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/share/1EY2jD7xjY/?mibextid=wwXIfr" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
